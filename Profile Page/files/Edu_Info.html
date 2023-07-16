@@ -1,0 +1,96 @@
+<html>
+<head>
+	<title>Edu Info</title>
+<link rel="stylesheet" type="text/css" href="../text/layout.css">
+<link rel="stylesheet" type="text/css" href="../text/menu.css">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  background-color:#363231;
+  height: 80px;
+  padding: 0.1px;
+  text-align: center;
+  font-size: 35px;
+}
+
+
+.column {
+  float: left;
+  padding: -2px;
+  height: 550px;
+}
+
+
+.column.side {
+  width: 50%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media (max-width: 600px) {
+  .column.side, {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+<ul>
+  <li><a href="../My_Profile.html"><font color="red">Home</font></a>  
+
+   <li class="dropdown"><a href="javascript:void(0)" class="dropbtn">Info</a>
+    <div class="dropdown-content">
+      <a href="Personal.html" target="_self">Personal</a>
+      <a <a href="Contact.html" target="_self">Contact</a>
+    </div>
+  </li>
+ 	<!--drop menu for News-->
+   <li class="dropdown"> <a href="javascript:void(0)" class="dropbtn">Education</a>
+      <div class="dropdown-content">
+      <a href="Edu_Info.html" target="_self">Info</a>
+      <a href="Results.html" target="_self">Results</a>
+    </div>
+</li>
+   <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Hobbies</a>
+    <div class="dropdown-content">
+      <a href="Sports.html" target="_self">Sports</a>
+      <a href="Other.html" target="_self">Other</a>
+    </div>
+  </li>
+   <li ><a href="Favourites.html" target="_self">Favourites</a></li>
+</ul>
+</div>
+<div class="header">
+  <h3><font color=white>Educational Details</font></h3>
+</div>
+
+<div class="row">
+  <div class="column side" style="background-color:#363231;">
+	</br></br>
+		<p><font color="white" size="4">&emsp;&emsp;<>&emsp;Studied at Prince of Wales' College, Moratuwa (2005 - 2018)</font></p>
+		<p><font color="white" size="4">&emsp;&emsp;<>&emsp;Undergraduate,Faculty of Science,University of Colombo.<br/>&emsp;&emsp;&emsp;&emsp;(Following Industrial Statistics & Mathematical Finance Degree)</font></p>
+		<p><font color="white" size="4">&emsp;&emsp;<>&emsp;Following BIT<br/>&emsp;&emsp;&emsp;&emsp;University of Colombo , School of Computing.</font></p>
+  </div>
+  <div class="column side" style="background-color:#363231;">
+<br/>
+<p align=center><a href="../images/scl.jpg" target="_blank"><img src="../images/scl.jpg" width=250 hight=100/></a></p>
+<p align=center><font color="white">Prince Of Wales' College</font></p>
+</br>
+<p align=center><a href="../images/uoc.jpg" target="_blank"><img src="../images/uoc.jpg" width=250 hight=100/></a></p>
+<p align=center><font color="white">University Of Colomco</font></p>
+</div>
+</body>
+</html>
+
